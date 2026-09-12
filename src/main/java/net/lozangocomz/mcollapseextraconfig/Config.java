@@ -22,7 +22,7 @@ public class Config {
 
     public static final ModConfigSpec.BooleanValue COLLAPSE_CHANCE_GRADIENT_ENABLED = BUILDER
             .comment("Activates a gradual reduction in the chance of collapse as height increases.")
-            .define("collapseChanceGradient_Enabled", true);
+            .define("collapseChanceGradient_Enabled", false);
 
     public static final ModConfigSpec.IntValue COLLAPSE_CHANCE_GRADIENT_START_Y = BUILDER
             .comment("Defines the Y-height where the gradual reduction in the chance of collapse begins. Below this height, the chance remains normal. (only works if collapseChanceGradient_Enabled is true)")
