@@ -86,13 +86,13 @@ public class CollapseRecipeMixin {
 
         double result = originalChance * gradient;
 
-        LOGGER.debug(
+        /*LOGGER.debug(
                 "Collapse chance: y={}, original={}, gradient={}, result={}",
                 y,
                 originalChance,
                 gradient,
                 result
-        );
+        );*/
 
         return result;
     }
